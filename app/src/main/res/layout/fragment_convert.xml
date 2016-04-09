@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/convertFragment"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jonathan.convert.convertFragment">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/distanceButton"
+        android:background="@drawable/measure"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="Distance"
+        android:textColor="#BDBDBD"
+        android:textSize="50sp"
+         />
+
+    <Button
+        android:id="@+id/weightButton"
+        android:background="@drawable/balance"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="Weight"
+        android:textColor="#BDBDBD"
+        android:textSize="50sp"
+         />
+</LinearLayout>
+
+</FrameLayout>
